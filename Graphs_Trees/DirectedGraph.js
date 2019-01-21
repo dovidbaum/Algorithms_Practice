@@ -129,6 +129,7 @@ class DirectedGraph{
         console.log(visited);
     }
     // will only be true iff DFS has a back edge
+    //todo
     isCycle(){
 
     }
@@ -161,6 +162,7 @@ class DirectedGraph{
         }
     }
 }
+//TESTING
 console.log("G1")
 let graph = new DirectedGraph(4);
 graph.addEdge(0,1);

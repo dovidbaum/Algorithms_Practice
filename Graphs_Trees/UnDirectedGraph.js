@@ -52,6 +52,7 @@ class UnDirectedGraph{
     }
 }
 
+//TESTING
 let graph = new UnDirectedGraph(3);
 graph.addEdge(0,2);
 graph.addEdge(0,1);

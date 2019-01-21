@@ -79,6 +79,7 @@ class heap{
 
 
 }
+//TESTING
 let h = new heap();
 h.insert(10);
 h.insert(15);

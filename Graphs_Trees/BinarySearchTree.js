@@ -1,4 +1,4 @@
-//todo input time complexities next to each function
+// Representation of a BST Node
 class Node{
     constructor(data){
         this.data = data;
@@ -6,6 +6,7 @@ class Node{
         this.right = null;
     }
 }
+// Representation of a BST
 class BST{
     constructor(){
         this.root = null;
@@ -154,27 +155,6 @@ class BST{
     DFSearch(){
         this.preOrder(this.root);
     }
-    //return true if data is in tree else false - go level by level
- /*   BFSearch(data){
-        let curr = this.root;
-        // for each level, print the level
-        for(let i = 0; i< this.getHeight(this.root);i++){
-            return this.BFSSearchHelper(curr,i+1,data);
-        }
-    }
-    BFSSearchHelper(curr,level,data){
-        if(curr == null){
-            return;
-        }else if(level == 1 && curr.data == data ){
-            return true;
-        }else{
-
-        }
-    }
-    */
-    BiDirectionalSearch(){
-
-    }
     //the number of edges on the longest path from the root to leaf
     getHeight(curr){
         if(curr == null){
@@ -218,6 +198,7 @@ class BST{
     }
 
 }
+//TESTING
 console.log("BST");
 let bst = new BST();
 bst.insert(4);
