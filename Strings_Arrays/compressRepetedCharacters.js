@@ -1,4 +1,3 @@
-//TODO x    
 /* problem: return the original string with repeated characters compressed to be one character then count
    running time: O(n)
  */

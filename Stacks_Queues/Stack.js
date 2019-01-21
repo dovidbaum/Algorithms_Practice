@@ -25,7 +25,7 @@ class Stack{
     }
 }
 
-
+//TESTING
 let stack = new Stack();
 stack.push(4);
 stack.push(22);
